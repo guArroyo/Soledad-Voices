@@ -78,7 +78,7 @@
   }
   a {
     font-family: 'Barlow', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #0D1C32;
   }
   ul {
@@ -128,7 +128,7 @@
   /* Site Navigation */
   .site-header {
     background-color: #FFFFFF;
-    padding: 30px 15px;
+    padding: 4px 15px;
   }
   .site-navigation {
     margin: 0 auto;
@@ -145,6 +145,7 @@
   .footer-right {
     display: inline-block;
     float: right;
+    margin-top: 24px;
   }
   .site-header-right li,
   .footer-right li {
@@ -152,7 +153,7 @@
   }
   .site-header-right li a {
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 56px;
   }
   
   /* Site Footer */
@@ -291,6 +292,10 @@
     -moz-appearance: none;
     border: none;
   }
+  .logo-pic {
+    max-width: 107px;
+    height: auto;
+  } 
   
   /* Items */
   .item {
