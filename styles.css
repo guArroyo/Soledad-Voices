@@ -366,6 +366,6 @@
   display: flex;
   flex-direction: column;
   /*justify-content: space-between;*/
-  background: linear-gradient(to bottom, rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 60%), url(https://spweb-uploads.s3.theark.cloud/2021/04/1437PH-B-495_1-1-scaled.jpg) 35% top / cover no-repeat;
+  background: linear-gradient(to bottom, rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 60%), url(https://image.exacttarget.com/lib/fe8f1372746d007871/m/1/H_grizzly_cubs_photos.png) 35% top / cover no-repeat;
   width: 100%;
 }
