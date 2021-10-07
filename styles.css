@@ -102,11 +102,11 @@
     max-width: 1280px;
     padding: 0 15px;
   }
-  .container:before, .container:after {
+  /*.container:before, .container:after {
     content: " ";
     display: table;
     clear: both;
-  }
+  }*/
   .mobile-hide {
     display: none;
   }
@@ -313,13 +313,13 @@
   }
   @media(min-width: 720px) {
     .page-hero-header-left, .page-hero-header-right {
-      width: 50%;
-      text-align: left;
-      display: inline-block;
-      float: left;
+      width: 100%;
+      text-align: center;
+      /*display: inline-block;
+      float: left;*/
     }
     .page-hero-header-left {
-      padding: 80px;
+      padding: 160px;
     }
     .page-hero-header-left p {
       font-size: 24px;
@@ -356,3 +356,16 @@
       margin-right: 2.5%;
     }
   }
+  @media (min-width: 768px) {
+    .pic-background {
+    justify-content: flex-end;
+    height: calc(80vh - 61px);
+    }
+}
+.pic-background {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  background: linear-gradient(to bottom, rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 60%), url(https://spweb-uploads.s3.theark.cloud/2021/04/1437PH-B-495_1-1-scaled.jpg) 35% top / cover no-repeat;
+  width: 100%;
+}
