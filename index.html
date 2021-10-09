@@ -19,6 +19,16 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles.css" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   </head>
   <body>
     <!-- Site Header -->
@@ -27,26 +37,16 @@
       <nav role="navigation" class="site-navigation">
         <ul class="site-header-left">
           <li>
-            <img
-              class="logo-pic"
-              src="logo.PNG"
-              alt="Celestial"
-            />
+            <a href="./index.html">
+              <img class="logo-pic" src="logo.PNG" alt="Celestial" />
+            </a>
           </li>
         </ul>
-        <ul class="site-header-right">
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Resources</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li>
-            <a href="#" class="button button-primary">Donate</a>
-          </li>
+        <ul class="site-header-right bar">
+          <li><a href="./aboutUs.html">About Us</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="./contactUs.html">Contact</a></li>
+          <li><a href="#" class="button button-primary">Donate</a></li>
         </ul>
       </nav>
     </header>
@@ -54,45 +54,24 @@
     <main role="main">
       <!-- Main Content Header -->
       <section>
-        <div class="pic-background" >
+        <div class="pic-background">
           <div class="page-hero-header-left">
             <h1 id="page-hero-title">Soledad Voices</h1>
-            <p>
-              Planting Seeds for the Future
-            </p>
+            <p>Planting Seeds for the Future</p>
             <a href="#" class="button button-primary">Donate Now</a>
           </div>
         </div>
       </section>
-      <section
-        role="region"
-        aria-label="page-hero-title"
-        class="page-hero-header"
-      >
-        <div class="container">
-          <div class="page-hero-header-left">
-            <h1 id="page-hero-title">Soledad Voices</h1>
-            <p>
-              Planting Seeds for the Future
-            </p>
-            <a href="#" class="button button-primary">Donate Now</a>
-          </div>
-          <!--<div class="page-hero-header-right">
-            <div class="img-container">
-              <img
-                src="https://content.codecademy.com/programs/ui-design/color-theory-lesson/color-theory-screen-1.png"
-                alt="application interface"
-              />
-            </div>
-          </div> -->
-        </div>
-      </section>
+
+      <!-- Side pic with goals description-->
+      
+
       <!-- Main Content Benefits -->
       <section role="region" class="main-content-benefits">
         <div class="container">
-          <ul class="clearfix">
+          <ul class="clearfix goal-text">
             <li class="item">
-              <div class="item-image"></div>
+              <img class="goal-pic" src="goal.png" alt="Goal 1" />
               <h2>Goal I</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -100,7 +79,7 @@
               </p>
             </li>
             <li class="item">
-              <div class="item-image"></div>
+              <img class="goal-pic" src="goal.png" alt="Goal 2" />
               <h2>Goal II</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -108,7 +87,7 @@
               </p>
             </li>
             <li class="item">
-              <div class="item-image"></div>
+              <img class="goal-pic" src="goal.png" alt="Goal 3" />
               <h2>Goal III</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -118,6 +97,7 @@
           </ul>
         </div>
       </section>
+
       <!-- Main Content Info -->
       <section role="region" class="main-content-info">
         <div class="mobile-show main-content-info-left">
@@ -157,6 +137,8 @@
           </div>
         </div>
       </section>
+      <!-- This is the new pic and goal description -->
+      
     </main>
 
     <!-- Site Footer -->
