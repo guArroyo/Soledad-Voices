@@ -515,5 +515,10 @@
 }
 .team-margin {
   margin-bottom: 24px;
+}.text-mv p {
+  color: #999999;
+  font-family: 'Barlow', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
 }
 /* end of team page styling */
